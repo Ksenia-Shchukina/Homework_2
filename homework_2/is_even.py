@@ -1,2 +1,7 @@
 def is_even(a):
-    pass
+    if a % 2 == 0:
+        return True
+    else:
+        return False
+
+
