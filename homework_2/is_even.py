@@ -1,2 +1,5 @@
 def is_even(a):
-    pass
+    if a % 2 == 0:
+        return 'Четное'
+    else:
+        return 'Нечетное'
